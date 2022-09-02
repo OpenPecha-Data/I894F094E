@@ -1,33 +1,64 @@
 id: I894F094E
+legacy_id: P003275
+ocr_import_info:
+  bdrc_scan_id: W23912
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-31T12:58:58'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-31T13:02:32+00:00'
-last_modified: '2022-06-07T18:47:40.937496+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-09-02T05:09:39.360939+00:00'
+last_modified: 2022-09-02 13:10:47.901958
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W23912
-  title: རིགས་དང་དཀྱིལ་འཁོར་རྒྱ་མཚོའི་ཁྱབ་བདག་ཧེ་རུ་ཀཿ་དཔལ་ངུར་སྨྲིག་གར་རོལ་སྐྱབས་གཅིག་ཕ་བོང་ཁ་པ་བདེ་ཆེན་སྙིང་པོ་དཔལ་བཟང་པོའི་རྣམ་པར་ཐར་པ་དོན་ལྡན་ཚངས་པའི་དབྱངས་སྙན
-  author: ''
+  id: http://purl.bdrc.io/resource/W23912
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    '1623':
-      image_group_id: I4556
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW23912
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: རིགས་དང་དཀྱིལ་འཁོར་རྒྱ་མཚོའི་ཁྱབ་བདག་ཧེ་རུ་ཀཿ་དཔལ་ངུར་སྨྲིག་གར་རོལ་སྐྱབས་གཅིག་ཕ་བོང་ཁ་པ་བདེ་ཆེན་སྙིང་པོ་དཔལ་བཟང་པོའི་རྣམ་པར་ཐར་པ་དོན་ལྡན་ཚངས་པའི་དབྱངས་སྙན།
+  author: ལྡན་མ་བློ་བཟང་རྡོ་རྗེ།
+statistics:
+  ocr_word_mean_confidence_index: 0.7570860230648685
+  ocr_word_median_confidence_index: 0.8500000238418579
+quality: null
+bases:
+  I4556:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4556
       total_pages: 594
-      order: 1
-      base_file: 1623.txt
-    '1444':
-      image_group_id: I4557
-      title: ''
+      volume_number: 1
+      volume_pages_bdrc_intro: 0
+    order: 1
+    base_file: I4556.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8600000143051147
+      ocr_word_mean_confidence_index: 0.7698192807095872
+    legacy_id: v001
+  I4557:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I4557
       total_pages: 544
-      order: 2
-      base_file: 1444.txt
-statistics: {}
-quality: {}
+      volume_number: 2
+      volume_pages_bdrc_intro: 0
+    order: 2
+    base_file: I4557.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.8299999833106995
+      ocr_word_mean_confidence_index: 0.7424618286280922
+    legacy_id: v002
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
